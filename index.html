@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./assets/icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Widget</title>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+  <main>
+    <div class="card flex">
+      <div class="card-drag"></div>
+
+      <div class="card-header">
+        <h1>Encontre <span>Apolo</span> no local de partida</h1>
+        <p>Chega em 3 minutos (800 metros)</p>
+      </div>
+
+      <div class="card-body flex">
+        <div class="left flex">
+          <div class="driver flex">
+            <div class="driver-avatar">
+              <img src="https://github.com/apolomoraes.png" alt="Imagem do motorista">
+            </div>
+            <div class="driver-star flex">
+              <div class="star">
+                <i class="ph ph-star"></i>
+              </div>
+              <span>5.0</span>
+            </div>
+            <div class="driver-name">
+              Apolo M.
+            </div>
+          </div>
+          <div class="car-img">
+            <img src="assets/car.png" alt="carro roxo">
+          </div>
+        </div>
+        <div class="right">
+          <div class="car-plate">
+            BCD0D19
+          </div>
+          <div class="car-model">
+            Golf roxo
+          </div>
+        </div>
+      </div>
+
+      <div class="card-footer flex">
+        <div class="input-wrapper flex">
+          <label for="message">Enviar mensagem para Apolo...</label>
+          <input type="text" id="message" placeholder="Enviar mensagem para Apolo...">
+        </div>
+
+        <div class="phone">
+          <i class="ph-fill ph-phone"></i>
+        </div>
+        <div class="shield">
+          <i class="ph-fill ph-shield-plus"></i>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
